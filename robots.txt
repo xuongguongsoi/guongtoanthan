@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://guongtoanthan.pages.dev/sitemap.xml
+Sitemap: https://guongtoanthan.chauanhbk473.workers.dev/sitemap.xml
