@@ -683,6 +683,15 @@ a:hover > .ph img, a:hover .ph img { transform: scale(1.035); }
 
 .btn-b2b { border-style: dashed; color: var(--ink-2); }
 .btn-b2b:hover { border-style: solid; background: var(--edge); border-color: var(--edge); color: #fff; }
+
+
+.art-body { margin: 26px 0 10px; }
+.art-body h2 { font-size: clamp(19px, 2vw, 23px); margin: 34px 0 10px; scroll-margin-top: 90px; }
+.art-body p { font-size: 16.5px; margin: 0 0 14px; }
+.art-body ul, .art-body ol { margin: 0 0 16px 22px; }
+.art-body li { font-size: 16.5px; color: var(--ink-2); margin-bottom: 6px; }
+.art-body strong { color: var(--ink); }
+.art-body a { color: var(--edge); text-underline-offset: 3px; }
 :root {
   --bg: #f7f6f8;
   --panel: #ffffff;
