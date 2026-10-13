@@ -697,6 +697,11 @@ a:hover > .ph img, a:hover .ph img { transform: scale(1.035); }
 .art-body figure.anh-bai { margin: 22px 0 26px; }
 .art-body figure.anh-bai img { display: block; width: 100%; height: auto; border-radius: var(--r, 10px); background: var(--edge-soft, #eceef0); }
 .art-body figure.anh-bai figcaption { font-size: 13.5px; color: var(--ink-2); margin-top: 8px; }
+.art-body .bang-cuon { overflow-x: auto; margin: 1.1rem 0; -webkit-overflow-scrolling: touch; }
+.art-body .bang-cuon table { border-collapse: collapse; width: 100%; font-size: .94em; }
+.art-body .bang-cuon th, .art-body .bang-cuon td { border: 1px solid rgba(0,0,0,.14); padding: .5rem .6rem; text-align: left; vertical-align: top; white-space: nowrap; }
+.art-body .bang-cuon th { background: rgba(0,0,0,.04); font-weight: 600; }
+.art-body .bang-cuon tr:nth-child(even) td { background: rgba(0,0,0,.02); }
 :root {
   --bg: #f7f6f8;
   --panel: #ffffff;
